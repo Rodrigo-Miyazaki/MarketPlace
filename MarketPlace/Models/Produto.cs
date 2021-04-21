@@ -9,6 +9,7 @@
         public double Preco { get; set; }
         public string Marca { get; set; }
         public Categoria Categorias { get; set; }
+        public Fornecedor Fornecedor { get; set; }
 
         public void Adiciona()
         {
